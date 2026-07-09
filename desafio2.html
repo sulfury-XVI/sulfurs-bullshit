@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TUPIM</title>
+  </head>
+  <body>
+    <h1>Torneio Unoficial de PVP do IFRN Macau</h1>
+
+    <p>
+      Esta página é para jogadores que desejam participar do torneio de PvP no Minecraft.
+      Aqui você pode registrar seu nome, escolher o horário da batalha, selecionar suas
+      armas favoritas e escolher o modo de PvP.
+    </p>
+
+    <details>
+  <summary>Jogadores Registrados</summary>
+
+  <section>
+    <h3>Jogadores Registrados</h3>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Jogador</th>
+          <th>Modo</th>
+          <th>Horario</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Lucas J</td>
+          <td>Sword</td>
+          <td>Manhã</td>
+          <td>Confirmado</td>
+        </tr>
+        <tr>
+          <td>Gabriel H</td>
+          <td>Crystal</td>
+          <td>Tarde</td>
+          <td>Pendente</td>
+        </tr>
+        <tr>
+          <td>Rafael F</td>
+          <td>UHC</td>
+          <td>Noite</td>
+          <td>Confirmado</td>
+        </tr>
+        <tr>
+          <td>Mateus G</td>
+          <td>Pots</td>
+          <td>Tarde</td>
+          <td>Pendente</td>
+        </tr>
+        <tr>
+          <td>Bruno C</td>
+          <td>Axe</td>
+          <td>Manhã</td>
+          <td>Confirmado</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</details>
+
+    <section>
+      <h2>Inscreva-se</h2>
+      <form action="#">
+        <label for="name">Nome Completo:</label><br />
+        <input type="text" id="name" name="name" /><br /><br />
+
+        <label for="password">Senha:</label><br />
+        <input type="password" id="password" name="password" /><br /><br />
+
+        <p>Escolha o horario de preferencia</p>
+
+        <input type="radio" id="morning" name="time" value="Morning" />
+        <label for="morning">Manhã</label>
+
+        <input type="radio" id="afternoon" name="time" value="Afternoon" />
+        <label for="afternoon">Tarde</label>
+
+        <input type="radio" id="night" name="time" value="Night" />
+        <label for="night">Noite</label>
+
+        <br /><br />
+
+        <p>Arma de preferencia:</p>
+
+        <input type="checkbox" id="sword" name="weapon" value="Sword" />
+        <label for="sword">Sword</label>
+
+        <input type="checkbox" id="bow" name="weapon" value="Bow" />
+        <label for="bow">Bow</label>
+
+        <input type="checkbox" id="axe" name="weapon" value="Axe" />
+        <label for="axe">Axe</label>
+
+        <input type="checkbox" id="mace" name="weapon" value="Mace" />
+        <label for="mace">Mace</label>
+
+        <input type="checkbox" id="spear" name="weapon" value="Spear" />
+        <label for="spear">Spear</label>
+
+        <input type="checkbox" id="crystal" name="weapon" value="Crystal" />
+        <label for="crystal">Crystal</label>
+
+        <br /><br />
+
+        <label for="mode">PvP Mode:</label><br />
+        <select id="mode" name="mode">
+          <option value="sword">Sword</option>
+          <option value="axe">Axe</option>
+          <option value="uhc">UHC</option>
+          <option value="crystal">Crystal</option>
+          <option value="mace">Mace</option>
+          <option value="mace">Spear</option>
+          <option value="pots">Pots</option>
+          <option value="smp">SMP</option>
+          <option value="buildbattle">Build Battle</option>
+        </select>
+        <br /><br />
+
+        <label for="message">Notes:</label><br />
+        <textarea id="message" name="message" rows="5"></textarea><br /><br />
+
+        <button type="submit">Register</button>
+      </form>
+    </section>
+  </body>
+</html>
