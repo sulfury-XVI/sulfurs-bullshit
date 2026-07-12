@@ -1,0 +1,95 @@
+:root{
+    --azul:#0d6efd;
+    --azul2:#0a58ca;
+    --cinza:#f2f2f2;
+    --branco:#fff;
+    --preto:#222;
+}
+
+body{
+    margin:0;
+    background:var(--cinza);
+    color:var(--preto);
+    font-family:Arial,sans-serif;
+    font-size:16px;
+}
+
+header{
+    background:var(--azul);
+    color:var(--branco);
+    text-align:center;
+    padding:20px;
+}
+
+footer{
+    background:var(--azul2);
+    color:var(--branco);
+    text-align:center;
+    padding:15px;
+}
+
+h1,h2{
+    font-family:Georgia,serif;
+    font-weight:bold;
+}
+
+nav{
+    background:#084298;
+    padding:12px;
+}
+
+nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+
+nav li{
+    display:inline-block;
+    margin:0 15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+section{
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    background:var(--branco);
+    border-radius:8px;
+}
+
+.titulo-secao{
+    color:var(--azul2);
+    font-family:Georgia,serif;
+}
+
+.card-programa{
+    background:#e7f1ff;
+    border:1px solid var(--azul);
+    border-radius:8px;
+    padding:15px;
+    margin:15px 0;
+    font-size:15px;
+}
+
+#inicio{
+    background:#dbeafe;
+}
+
+#programacao{
+    border-left:6px solid var(--azul);
+}
+
+#contato{
+    background:#eef7ff;
+}
